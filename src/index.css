@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* src/index.css or src/App.css */
+@font-face {
+  font-family: 'PlusJakartaSans-Bold';
+  src: url('/src/assets/fonts/PlusJakartaSans-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .scrollbar-hide {
+    -ms-overflow-style: none; 
+    scrollbar-width: none; 
+  }
+
+  @keyframes customPing {
+    75%, 100% {
+        transform: scale(1.4  );
+        opacity: 0;
+    }
+}
+.animate-customPing {
+    animation: customPing 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
