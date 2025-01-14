@@ -1,6 +1,5 @@
 import { AnalyticSection, Home} from "./components";
 import { AboutCompany } from "./subComponents";
-import OurServices from "./ourServices/OurServices";
 import { VideoSection } from "./videoSection";
 import { OurProducts } from "./ourproducts";
 // import WideScreenHandler from "../../../components/WideScreenHandler";

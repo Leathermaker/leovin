@@ -1,6 +1,5 @@
 import React from 'react'
 import AboutRightSection from './components/AboutRightSection'
-import AboutLeftSection from './components/AboutLeftSection'
 import { AboutImageSection } from '../../about/components'
 
 const AboutCompany:React.FC = () => {

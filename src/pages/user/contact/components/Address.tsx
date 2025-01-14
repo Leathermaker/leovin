@@ -2,7 +2,6 @@ import React from "react";
 import { BiPhoneCall } from "react-icons/bi";
 import { MdOutlineEmail } from "react-icons/md";
 import { SlLocationPin } from "react-icons/sl";
-import { motion, useScroll, useTransform } from "motion/react"; // Ensure you're using "framer-motion"
 
 interface AddressProps {
   icon: React.ReactNode;
